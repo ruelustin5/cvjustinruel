@@ -1,0 +1,151 @@
+header div{
+   background-color:#26abef;
+   height: 250px;
+   width: 100%;
+   margin: 0 auto;
+
+}
+.flexsection{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+body{
+    margin: 0;
+    background-color: #efefef;
+    text-overflow: clip;
+    width: 100%;
+    overflow-x: hidden;
+}
+.imgJustin{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+    top: 100px;
+    box-shadow: 3px 5px gray;
+    line-height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+header div h1{
+    color: white;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 200px;
+    font-size: 75px;
+    font-family: "Baloo Tammudu 2",Arial;
+}
+.content{
+    height: 170px;
+    background-color: white;
+    border: 1px solid #B5B5B5;
+    width: 550px;
+    position: relative;
+    top: 120px;
+    margin-top: 20px;
+    display: flex;
+    margin: 30px;
+}
+section{
+    margin-bottom: 150px;
+}
+.content .traitgris{
+    height: 100%;
+    width: 20px;
+    background-color: #B5B5B5;
+}
+.content .traitvert{
+    height: 100%;
+    width: 20px;
+    background-color: #56DCB6;
+}
+.content .imgFormation{
+    height: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    left: 20px;
+}
+.content .imgCoord{
+    height: 90px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    left: 20px;
+}
+.content .imgExp{
+    height: 125px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    left: 20px;
+}
+.contenu{
+    position: relative;
+    left: 100px;
+}
+.liste_comp{
+    margin: 0;
+}
+.titre_Comp{
+    margin:0;
+    margin-bottom: 10px;
+    padding-top: 17px;
+}
+.contenu h1{
+    font-family: "Baloo Tammudu 2",'Arial';
+    height: 30px;
+    color: #101010;
+}
+.contenu p{
+    color: #585858;
+    font-family: 'Merriweather Sans';
+}
+.contenu ul{
+   padding: 0;
+}
+.contenu li{
+    color: #585858;
+    font-family: 'Merriweather Sans';
+}
+.contenu a{
+    color: #585858;
+    font-family: 'Merriweather Sans';
+}
+footer div{
+    margin-top: 50px;
+    height: 100px;
+    background-color: #26abef;
+}
+@media(orientation: portrait) and (min-width: 900px){
+    .content{
+        width: 1000px;
+        height: 320px;
+    }
+    .contenu{
+        font-size:30px ;
+    }
+    .titre_Comp{
+        margin-bottom: 50px;
+    }
+    .titreExp{
+        margin-bottom: 50px;
+    }
+    header div img{
+        width: 230px;
+        height: 230px;
+    }
+
+}
+header a img {
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 30px;
+    width: 100px;
+}
+header div{
+    position: relative;
+}
