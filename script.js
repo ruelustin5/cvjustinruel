@@ -14,6 +14,4 @@ gsap.from(content2,{duration: 1, opacity: 0, x: "5vw", scrollTrigger: {trigger: 
 gsap.from(content3,{duration: 1, opacity: 0, x: "5vw", scrollTrigger: {trigger: content3}});
 gsap.from(content4,{duration: 1, opacity: 0, x: "5vw", scrollTrigger: {trigger: content4}});
 gsap.from(content5,{duration: 1, opacity: 0, x: "5vw", scrollTrigger: {trigger: content5}});
-// webhost = document.querySelector("img[src='https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png']");
-// webhost.style.display = "none";
 };
